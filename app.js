@@ -16,6 +16,7 @@ function hideLoader() {
     loadingScreen.style.visibility = "hidden";
     typeEffect(); 
   }, 1500);
+
 }
 
 function setRandomQuote() {
@@ -33,4 +34,5 @@ function setRandomQuote() {
 window.onload = function () {
   setRandomQuote(); 
   hideLoader(); 
+  console.log("Page loaded");
 };

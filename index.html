@@ -25,6 +25,16 @@
   <body>
     <!-- Header container -->
 
+    <div id="loading-screen">
+      <div class="text-center">
+        <p id="welcome-message" class="mb-4">Welcome to Nasa PH</p>
+        <p id="random-quote" class="italic"></p>
+        <div class="spinner mt-4 m-auto"></div>
+      </div>
+    </div>
+
+
+
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo mr-auto">
@@ -49,7 +59,8 @@
     </header>
 
     <section id="hero" class="d-flex align-items-center">
-      <div class="container">
+      <div class="filter"></div>
+      <div class="container" style="z-index: 100">
         <div class="row">
           <div
             class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
